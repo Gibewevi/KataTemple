@@ -75,12 +75,9 @@ animation-fill-mode: both;
 
 .accordion_content {
     background-color: aquamarine;
-    display: none;
     overflow: hidden;
 	height: 0px;
-    animation-name: accordionBottom;
-    animation-duration: 0.5s;
-    -o-animation-iteration-count: inherit;
+    display: hidden;
 }
 
 .accordion_input{
@@ -88,26 +85,43 @@ animation-fill-mode: both;
 }
 
 .accordion_input:checked ~ .accordion_content {
-    display: block;
     height:100px;
-    background-color: red;
+    animation-name: accordionBottom;
+    animation-duration: 0.5s;
+    animation-iteration-count: inherit;
 }
 
 .accordion_input:not(:checked) ~ .accordion_content {
-    display: none;
+    
+    animation-name: accordionTop;
+    animation-duration: 0.5s;
+    animation-iteration-count:inherit;
+
 }
 
 @keyframes accordionBottom {
     0% {
         max-height: 0px;
-        display: none;
     }
 
     100% {
         max-height: 100px;
-        display: block;
     }
 }
+
+@keyframes accordionTop {
+    0% {
+        height: 100px;
+    }
+
+    99% {
+        height: 0px;
+    }
+    100% {
+        display:none;
+    }
+}
+
 
 @keyframes slideInBottom {
     0% {
