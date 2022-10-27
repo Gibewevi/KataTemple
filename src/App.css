@@ -1,0 +1,163 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.arbre {
+animation: slideInLeft 4s linear infinite;
+animation-play-state: paused;
+animation-delay: calc(var(--scroll) * -2.5s);
+animation-fill-mode: both;
+}
+
+.tour {
+animation: slideInRight 4s linear infinite;
+animation-play-state: paused;
+animation-delay: calc(var(--scroll) * -2.5s);
+animation-fill-mode: both;  
+}
+.fond3 {
+    animation: slideInTop 4s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -4s);
+    animation-fill-mode: both;  
+}
+
+.fond2 {
+    animation: slideInTop 4s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -5s);
+    animation-fill-mode: both;  
+}
+.moutain {
+    animation: slideInTop 4s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -6s);
+    animation-fill-mode: both; 
+}
+
+#textH1 {
+    animation: slideInBottom 6s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -8s);
+    animation-fill-mode: both;     
+}
+
+.nuage1 {
+    animation: slideInRight 6s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -4s);
+    animation-fill-mode: both;     
+}
+
+.nuage2 {
+    animation: slideInLeft 6s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -4s);
+    animation-fill-mode: both;     
+}
+
+.accordion {
+    width: full;
+    background-color: white;
+    overflow: hidden;
+}
+
+.accordion_label {
+    display: block;
+    background-color: white;
+    position: relative;
+    cursor: pointer;
+}
+
+.accordion_label:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.accordion_content {
+    background-color: aquamarine;
+    display: none;
+    overflow: hidden;
+	height: 0px;
+    animation-name: accordionBottom;
+    animation-duration: 0.5s;
+    -o-animation-iteration-count: inherit;
+}
+
+.accordion_input{
+    display: block;
+}
+
+.accordion_input:checked ~ .accordion_content {
+    display: block;
+    height:100px;
+    background-color: red;
+}
+
+.accordion_input:not(:checked) ~ .accordion_content {
+    display: none;
+}
+
+@keyframes accordionBottom {
+    0% {
+        max-height: 0px;
+        display: none;
+    }
+
+    100% {
+        max-height: 100px;
+        display: block;
+    }
+}
+
+@keyframes slideInBottom {
+    0% {
+        transform: translateY(0px);
+        animation-timing-function:ease-in-out
+    }
+ 
+    100% {
+        transform: translateY(100%);
+        animation-timing-function:ease-in-out
+    }
+}
+
+@keyframes slideInTop {
+    0% {
+        transform: translateY(0px);
+        animation-timing-function:ease-in-out
+    }
+ 
+    100% {
+        transform: translateY(-15%);
+        animation-timing-function:ease-in-out
+    }
+}
+
+
+
+
+@keyframes slideInLeft {
+    0% {
+        transform: translateY(0px);
+        animation-timing-function:ease-in-out
+    }
+ 
+ 
+    100% {
+        transform: translateX(-100%);
+        animation-timing-function:ease-in-out
+    }
+}
+
+@keyframes slideInRight {
+    0% {
+        transform: translateX(0px);
+        animation-timing-function:ease-in-out
+    }
+ 
+ 
+    100% {
+        transform: translateX(100%);
+        animation-timing-function:ease-in-out
+    }
+}
