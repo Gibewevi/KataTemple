@@ -72,29 +72,25 @@ function App() {
 
                       <div>
                         <input type='checkbox' id='section_1' className='accordion_input'></input>
-                        <label for='section_1' className='accordion_label'><span className='mx-2 text-[0.8em] font-semibold'>Day 1</span></label>
+                        <label for='section_1' className='accordion_label border-b-[.8px] border-slate-200'><span className='mx-2 text-[0.8em] font-semibold'>Day 1</span></label>
                         <div className='accordion_content'>
                           <div className='flex flex-col'>
-                            <span className='text-[0.6em] font-bold mt-1'>Début</span>
-                            <span className='text-[0.8em] font-bold underline decoration-orange-400'>Mission :</span>
-                            <span className='text-[0.6em] font-bold mt-1'>Given 2 strings, a and b, write a method that return a string of the form short+long+short, with the shorter string on the outside and the longer string on the inside 🔥</span>
-                            <span className='text-[0.6em] font-bold mt-4'>Language : Ruby ♦️</span>
-                            <span className='text-[0.6em] font-bold mt-1'>Difficulty : 8kyu 🤙</span>
-                            <span className='text-[0.6em] font-bold mt-1'>Difficulty : 8kyu 🤙</span>
-                            <span className='text-[0.6em] font-bold mt-1'>Difficulty : 8kyu 🤙</span>
-                            <span className='text-[0.6em] font-bold mt-1'>Fin</span>
-
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, recusandae qui? Itaque quam laborum rem natus quod cum, facere blanditiis quas laudantium animi non fugit reiciendis adipisci incidunt, obcaecati commodi!</span>
                           </div>
                         </div>
                       </div>
 
                       <div>
                         <input type='checkbox' id='section_2' className='accordion_input'></input>
-                        <label for='section_2' className='accordion_label mx-2 border-b-[.8px] border-slate-200 text-[0.8em] font-semibold'>Day 2</label>
+                        <label for='section_2' className='accordion_label border-b-[.8px] border-slate-200'><span className='mx-2 text-[0.8em] font-semibold'>Day 2</span></label>
                         <div className='accordion_content'>
-                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque quis veritatis dolor ab reiciendis! Nesciunt quidem blanditiis modi exercitationem suscipit maiores fuga molestiae, excepturi id rem, debitis temporibus explicabo officiis!</p>
+                          <div className='flex flex-col'>
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, recusandae qui? Itaque quam laborum rem natus quod cum, facere blanditiis quas laudantium animi non fugit reiciendis adipisci incidunt, obcaecati commodi!</span>
+                          </div>
                         </div>
                       </div>
+
+      
 
                     </div>
                   
@@ -105,23 +101,27 @@ function App() {
                   <h3 className='text-xl font-bold text-red-500'>Week 2 - 7kyu 👀</h3>
                   <div className='accordion mt-1'>
 
-                      <div>
-                        <input type='checkbox' id='section_8' className='accordion_input'></input>
-                        <label for='section_8' className='accordion_label'><span className='mx-2 text-[0.8em] font-semibold'>Day 8</span></label>
+                  <div>
+                        <input type='checkbox' id='section_3' className='accordion_input'></input>
+                        <label for='section_3' className='accordion_label border-b-[.8px] border-slate-200'><span className='mx-2 text-[0.8em] font-semibold'>Day 1</span></label>
                         <div className='accordion_content'>
-                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque quis veritatis dolor ab reiciendis! Nesciunt quidem blanditiis modi exercitationem suscipit maiores fuga molestiae, excepturi id rem, debitis temporibus explicabo officiis!</p>
+                          <div className='flex flex-col'>
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, recusandae qui? Itaque quam laborum rem natus quod cum, facere blanditiis quas laudantium animi non fugit reiciendis adipisci incidunt, obcaecati commodi!</span>
+                          </div>
                         </div>
                       </div>
 
                       <div>
-                        <input type='checkbox' id='section_9' className='accordion_input'></input>
-                        <label for='section_9' className='accordion_label mx-2 border-b-[.8px] border-slate-200 text-[0.8em] font-semibold'>Day 9</label>
+                        <input type='checkbox' id='section_4' className='accordion_input'></input>
+                        <label for='section_4' className='accordion_label border-b-[.8px] border-slate-200'><span className='mx-2 text-[0.8em] font-semibold'>Day 2</span></label>
                         <div className='accordion_content'>
-                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque quis veritatis dolor ab reiciendis! Nesciunt quidem blanditiis modi exercitationem suscipit maiores fuga molestiae, excepturi id rem, debitis temporibus explicabo officiis!</p>
+                          <div className='flex flex-col'>
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, recusandae qui? Itaque quam laborum rem natus quod cum, facere blanditiis quas laudantium animi non fugit reiciendis adipisci incidunt, obcaecati commodi!</span>
+                          </div>
                         </div>
                       </div>
 
-                    </div>
+                  </div>
                   
                 </div>
               </div>
