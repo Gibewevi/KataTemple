@@ -35,13 +35,13 @@ function App() {
             <div className="w-full h-screen bg-fond6 bg-cover bg-center absolute bottom-0"></div>
             <div className="arbre w-full h-screen bg-arbre bg-cover bg-center absolute bottom-0"></div>
             <div className="tour w-full h-screen bg-tour bg-cover bg-center absolute bottom-0"></div>
-            <div className='bg-gradient-to-t from-indigo-800 w-full h-24 absolute bottom-0'></div>
+            <div className='bg-gradient-to-t from-[#474290] w-full h-24 absolute bottom-0'></div>
           </div>
 
-        <div className='w-full h-screen bg-indigo-800 border border-white border-2'>
-            <div className='max-w-2xl border border-red-400 border-2 mx-auto flex flex-col p-2'>
+        <div className='w-full h-screen bg-[#474290]'>
+            <div className='max-w-2xl mx-auto flex flex-col p-2'>
               
-              <div className='w-full border border-2 border-white flex flex-col items-center justify-center p-3'>
+              <div className='w-full flex flex-col items-center justify-center p-3'>
     
                 <h2 className='text-white'>
                   <span className='font-comforter text-3xl'>30</span>
@@ -64,27 +64,65 @@ function App() {
 
               </div>
 
-              <div className='h-96 w-full mt-4 '>
-                <h3 className='text-xl font-bold text-red-500'>Week 1 - 8kyu 🤙</h3>
-                <div className='accordion'>
+              <div className='w-full mt-4 '>
+                <div className=''>
+                
+                  <h3 className='text-xl font-bold text-red-500'>Week 1 - 8kyu 🤙</h3>
+                  <div className='accordion mt-1'>
 
-                  <div>
-                    <input type='checkbox' id='section_1' className='accordion_input'></input>
-                    <label for='section_1' className='accordion_label'>Section #1</label>
-                    <div className='accordion_content'>
-                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque quis veritatis dolor ab reiciendis! Nesciunt quidem blanditiis modi exercitationem suscipit maiores fuga molestiae, excepturi id rem, debitis temporibus explicabo officiis!</p>
+                      <div>
+                        <input type='checkbox' id='section_1' className='accordion_input'></input>
+                        <label for='section_1' className='accordion_label'><span className='mx-2 text-[0.8em] font-semibold'>Day 1</span></label>
+                        <div className='accordion_content'>
+                          <div className='flex flex-col'>
+                            <span className='text-[0.6em] font-bold mt-1'>Début</span>
+                            <span className='text-[0.8em] font-bold underline decoration-orange-400'>Mission :</span>
+                            <span className='text-[0.6em] font-bold mt-1'>Given 2 strings, a and b, write a method that return a string of the form short+long+short, with the shorter string on the outside and the longer string on the inside 🔥</span>
+                            <span className='text-[0.6em] font-bold mt-4'>Language : Ruby ♦️</span>
+                            <span className='text-[0.6em] font-bold mt-1'>Difficulty : 8kyu 🤙</span>
+                            <span className='text-[0.6em] font-bold mt-1'>Difficulty : 8kyu 🤙</span>
+                            <span className='text-[0.6em] font-bold mt-1'>Difficulty : 8kyu 🤙</span>
+                            <span className='text-[0.6em] font-bold mt-1'>Fin</span>
+
+                          </div>
+                        </div>
+                      </div>
+
+                      <div>
+                        <input type='checkbox' id='section_2' className='accordion_input'></input>
+                        <label for='section_2' className='accordion_label mx-2 border-b-[.8px] border-slate-200 text-[0.8em] font-semibold'>Day 2</label>
+                        <div className='accordion_content'>
+                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque quis veritatis dolor ab reiciendis! Nesciunt quidem blanditiis modi exercitationem suscipit maiores fuga molestiae, excepturi id rem, debitis temporibus explicabo officiis!</p>
+                        </div>
+                      </div>
+
                     </div>
-                  </div>
+                  
+                </div>
 
-                  <div>
-                    <input type='checkbox' id='section_2' className='accordion_input'></input>
-                    <label for='section_2' className='accordion_label'>Section #2</label>
-                    <div className='accordion_content'>
-                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque quis veritatis dolor ab reiciendis! Nesciunt quidem blanditiis modi exercitationem suscipit maiores fuga molestiae, excepturi id rem, debitis temporibus explicabo officiis!</p>
+                <div className='mt-5'>
+                
+                  <h3 className='text-xl font-bold text-red-500'>Week 2 - 7kyu 👀</h3>
+                  <div className='accordion mt-1'>
+
+                      <div>
+                        <input type='checkbox' id='section_8' className='accordion_input'></input>
+                        <label for='section_8' className='accordion_label'><span className='mx-2 text-[0.8em] font-semibold'>Day 8</span></label>
+                        <div className='accordion_content'>
+                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque quis veritatis dolor ab reiciendis! Nesciunt quidem blanditiis modi exercitationem suscipit maiores fuga molestiae, excepturi id rem, debitis temporibus explicabo officiis!</p>
+                        </div>
+                      </div>
+
+                      <div>
+                        <input type='checkbox' id='section_9' className='accordion_input'></input>
+                        <label for='section_9' className='accordion_label mx-2 border-b-[.8px] border-slate-200 text-[0.8em] font-semibold'>Day 9</label>
+                        <div className='accordion_content'>
+                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque quis veritatis dolor ab reiciendis! Nesciunt quidem blanditiis modi exercitationem suscipit maiores fuga molestiae, excepturi id rem, debitis temporibus explicabo officiis!</p>
+                        </div>
+                      </div>
+
                     </div>
-                  </div>
-
-
+                  
                 </div>
               </div>
 

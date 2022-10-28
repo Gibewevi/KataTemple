@@ -59,12 +59,12 @@ animation-fill-mode: both;
 .accordion {
     width: full;
     background-color: white;
+    border-radius: 5px 5px 5px 5px;
     overflow: hidden;
 }
 
 .accordion_label {
     display: block;
-    background-color: white;
     position: relative;
     cursor: pointer;
 }
@@ -81,31 +81,31 @@ animation-fill-mode: both;
 }
 
 .accordion_input{
-    display: block;
+    display: none;
 }
 
 .accordion_input:checked ~ .accordion_content {
-    height:100px;
+    height: 100%;
     animation-name: accordionBottom;
-    animation-duration: 0.5s;
+    animation-duration: 0.9s;
     animation-iteration-count: inherit;
 }
 
 .accordion_input:not(:checked) ~ .accordion_content {
     
     animation-name: accordionTop;
-    animation-duration: 0.5s;
+    animation-duration: 3s;
     animation-iteration-count:inherit;
 
 }
 
 @keyframes accordionBottom {
     0% {
-        max-height: 0px;
+        max-height: 0;
     }
 
     100% {
-        max-height: 100px;
+        max-height: 15em;
     }
 }
 
